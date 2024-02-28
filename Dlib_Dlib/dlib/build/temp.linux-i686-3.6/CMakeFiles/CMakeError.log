@@ -1,0 +1,118 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b148/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b148.dir/build.make CMakeFiles/cmTC_7b148.dir/build
+make[1]: Entering directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b148.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_7b148.dir/CheckSymbolExists.c.o   -c /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7b148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b148.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7b148.dir/CheckSymbolExists.c.o  -o cmTC_7b148 
+CMakeFiles/cmTC_7b148.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x15): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7b148.dir/build.make:97: recipe for target 'cmTC_7b148' failed
+make[1]: *** [cmTC_7b148] Error 1
+make[1]: Leaving directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b148/fast' failed
+make: *** [cmTC_7b148/fast] Error 2
+
+File /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3930/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3930.dir/build.make CMakeFiles/cmTC_f3930.dir/build
+make[1]: Entering directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3930.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_f3930.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3930.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f3930.dir/CheckFunctionExists.c.o  -o cmTC_f3930 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f3930.dir/build.make:97: recipe for target 'cmTC_f3930' failed
+make[1]: *** [cmTC_f3930] Error 1
+make[1]: Leaving directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f3930/fast' failed
+make: *** [cmTC_f3930/fast] Error 2
+
+
+Determining if the function cblas_ddot exists failed with the following output:
+Change Dir: /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5efa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5efa.dir/build.make CMakeFiles/cmTC_f5efa.dir/build
+make[1]: Entering directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5efa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -fPIE   -o CMakeFiles/cmTC_f5efa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5efa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5efa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot    -rdynamic CMakeFiles/cmTC_f5efa.dir/CheckFunctionExists.c.o  -o cmTC_f5efa 
+CMakeFiles/cmTC_f5efa.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x22): undefined reference to `cblas_ddot'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f5efa.dir/build.make:97: recipe for target 'cmTC_f5efa' failed
+make[1]: *** [cmTC_f5efa] Error 1
+make[1]: Leaving directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f5efa/fast' failed
+make: *** [cmTC_f5efa/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71075/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71075.dir/build.make CMakeFiles/cmTC_71075.dir/build
+make[1]: Entering directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71075.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv -fPIE   -o CMakeFiles/cmTC_71075.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71075.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_71075.dir/CheckFunctionExists.c.o  -o cmTC_71075 
+CMakeFiles/cmTC_71075.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x22): undefined reference to `sgesv'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_71075.dir/build.make:97: recipe for target 'cmTC_71075' failed
+make[1]: *** [cmTC_71075] Error 1
+make[1]: Leaving directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_71075/fast' failed
+make: *** [cmTC_71075/fast] Error 2
+
+
+Determining if the function sgesv_ exists failed with the following output:
+Change Dir: /home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dba6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dba6.dir/build.make CMakeFiles/cmTC_5dba6.dir/build
+make[1]: Entering directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dba6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_ -fPIE   -o CMakeFiles/cmTC_5dba6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5dba6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dba6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_5dba6.dir/CheckFunctionExists.c.o  -o cmTC_5dba6 
+CMakeFiles/cmTC_5dba6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x22): undefined reference to `sgesv_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5dba6.dir/build.make:97: recipe for target 'cmTC_5dba6' failed
+make[1]: *** [cmTC_5dba6] Error 1
+make[1]: Leaving directory '/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5dba6/fast' failed
+make: *** [cmTC_5dba6/fast] Error 2
+
+

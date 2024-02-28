@@ -1,0 +1,19 @@
+#options: 640x352 fps=15/1 timebase=1/15 bitdepth=8 cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=abr mbtree=1 bitrate=31757 ratetol=1.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+in:0 out:0 type:I dur:2 cpbdur:2 q:0.00 aq:0.10 tex:328735 mv:28120 misc:161 imb:880 pmb:0 smb:0 d:- ref:;
+in:1 out:1 type:P dur:2 cpbdur:2 q:0.00 aq:0.14 tex:199515 mv:5020 misc:761 imb:102 pmb:558 smb:220 d:- ref:0 ;
+in:5 out:2 type:P dur:2 cpbdur:2 q:0.00 aq:0.01 tex:252426 mv:6367 misc:527 imb:166 pmb:621 smb:93 d:- ref:0 ;
+in:3 out:3 type:B dur:2 cpbdur:2 q:0.00 aq:0.83 tex:150434 mv:6290 misc:748 imb:54 pmb:655 smb:171 d:- ref:0 ;
+in:2 out:4 type:b dur:2 cpbdur:2 q:0.00 aq:0.34 tex:111032 mv:5462 misc:818 imb:27 pmb:601 smb:252 d:- ref:0 ;
+in:4 out:5 type:b dur:2 cpbdur:2 q:0.00 aq:0.57 tex:99520 mv:4694 misc:906 imb:23 pmb:544 smb:313 d:- ref:0 ;
+in:9 out:6 type:P dur:2 cpbdur:2 q:0.00 aq:0.01 tex:310841 mv:6215 misc:352 imb:162 pmb:682 smb:36 d:- ref:0 ;
+in:7 out:7 type:B dur:2 cpbdur:2 q:0.00 aq:0.27 tex:146978 mv:5457 misc:789 imb:46 pmb:620 smb:214 d:- ref:0 ;
+in:6 out:8 type:b dur:2 cpbdur:2 q:0.00 aq:0.39 tex:85366 mv:3855 misc:875 imb:20 pmb:529 smb:331 d:- ref:0 ;
+in:8 out:9 type:b dur:2 cpbdur:2 q:0.00 aq:0.46 tex:117859 mv:5609 misc:732 imb:21 pmb:676 smb:183 d:- ref:0 ;
+in:10 out:10 type:P dur:2 cpbdur:2 q:0.00 aq:0.00 tex:100049 mv:2717 misc:882 imb:25 pmb:570 smb:285 d:- ref:0 ;
+in:14 out:11 type:P dur:2 cpbdur:2 q:0.00 aq:0.97 tex:380776 mv:4607 misc:377 imb:203 pmb:638 smb:39 d:- ref:0 ;
+in:12 out:12 type:B dur:2 cpbdur:2 q:0.00 aq:0.20 tex:147610 mv:3813 misc:713 imb:20 pmb:705 smb:155 d:- ref:0 ;
+in:11 out:13 type:b dur:2 cpbdur:2 q:0.00 aq:0.82 tex:79932 mv:2529 misc:955 imb:1 pmb:460 smb:419 d:- ref:0 ;
+in:13 out:14 type:b dur:2 cpbdur:2 q:0.00 aq:0.41 tex:77408 mv:3108 misc:860 imb:1 pmb:606 smb:273 d:- ref:0 ;
+in:15 out:15 type:P dur:2 cpbdur:2 q:0.00 aq:0.08 tex:84101 mv:1225 misc:882 imb:7 pmb:562 smb:311 d:- ref:0 ;
+in:17 out:16 type:P dur:2 cpbdur:2 q:0.00 aq:0.48 tex:223490 mv:5322 misc:532 imb:13 pmb:798 smb:69 d:- ref:0 ;
+in:16 out:17 type:b dur:2 cpbdur:2 q:0.00 aq:0.57 tex:89308 mv:3703 misc:829 imb:0 pmb:652 smb:228 d:- ref:0 ;

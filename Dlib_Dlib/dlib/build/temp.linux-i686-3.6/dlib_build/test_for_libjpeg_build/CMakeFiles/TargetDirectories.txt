@@ -1,0 +1,3 @@
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/dlib_build/test_for_libjpeg_build/CMakeFiles/rebuild_cache.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/dlib_build/test_for_libjpeg_build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,8 @@
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/rebuild_cache.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/_dlib_pybind11.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/CMakeFiles/edit_cache.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/pybind11_build/CMakeFiles/edit_cache.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/pybind11_build/CMakeFiles/rebuild_cache.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/dlib_build/CMakeFiles/dlib.dir
+/home/ajitesh/projects/hometec/surveillance/poc2/dlib/build/temp.linux-i686-3.6/dlib_build/CMakeFiles/edit_cache.dir

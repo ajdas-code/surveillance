@@ -1,0 +1,11 @@
+lib:
+Uses - https://github.com/ageitgey/face_recognition
+
+Detection of face using - DLib - HoG - http://dlib.net/face_detector.py.html
+Recognition of face using - Dlib - C++ ResNet architecture (29 conv. layers)
+
+Limitation - is in detection process - as only frontal faces ( unline MT/CNN ) and unable to pick up faces from blur images - (CNN detectecs faces from 20x20 pixels which is not possible here)
+
+
+1. Install - dlib
+2. OpnenCSV - for Video processing ( not any face detection or recognition )

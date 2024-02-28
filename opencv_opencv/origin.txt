@@ -1,0 +1,13 @@
+
+lib:
+https://github.com/ageitgey/face_recognition
+Detection of face using - OpenCSV 
+Recognition of face using - OpenCSV CNN
+
+Limitation - is in detection process - poorer than DLIB 
+
+
+1. OpnenCSV - for Video processing,  face detection and recognition
+
+
+
